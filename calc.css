@@ -18,7 +18,7 @@ input{
     color:black;
     background-color:rgba(2, 224, 240, 0.781);
     height: auto;
-    width: 400px;
+    width: 350px;
     align-self:left;
     text-align: center;
     margin: auto;
@@ -35,3 +35,17 @@ input{
     padding: 10px;
     text-align: center;
   }
+  button{
+    border: blue;
+    border-radius: 5px;
+  }
+button:hover{
+    background: rgb(182, 230, 73);
+
+}
+input{
+    border-radius: 10px;
+}
+select{
+    border-radius: 10px;
+}
