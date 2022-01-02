@@ -7,10 +7,14 @@ function subtraction(num1, num2) {
 function multiplication(num1, num2) {
     return num1 * num2
 }
-function division(firstNumber, secondNumber) {
+function division(num1, num2) {
     return num1 / num2
 }
-
+let button = document.getElementById("calc-btn")
+button.addEventListener("click", function calculate() {
+    calculator()
+}
+)
 function calculator() {
     
 let firstNumber = Number(document.getElementById("first").value)
