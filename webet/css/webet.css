@@ -1,0 +1,76 @@
+#navbar {
+    position: relative;
+    height: 70px;
+    /* background-image: linear-gradient(to right, rgb(211, 204, 227), rgb(233, 228, 240)); */
+    min-width: 100%;
+    border-radius: 5px;
+}
+
+#welcome {
+    border-radius: 50px 0px;
+    border: 1px solid blue;
+    margin: 10px 5px;
+    padding-left: 10px;
+    height: 400px;
+    background-color: #0c15bf65;
+}
+
+.images {
+    width: 400px;
+    height: 200px;
+    display: inline;
+
+}
+
+span {
+    padding: 5px;
+}
+
+#caption {
+    padding-left: 30px;
+    padding-top: 0px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Leelawadee, monospace;
+    color: #0C15BF;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+.links {
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 25px;
+    padding: 2px;
+}
+
+.links:hover {
+    color: white;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+    padding: 2px;
+}
+
+#signup {
+    background-color: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+}
+
+#logo {
+    display: inline;
+    width: 100px;
+    margin-top: 15px;
+}
+
+#desc{
+    font-size: medium;
+    color: white;
+    font-family: Microsoft Tai Le, monospace;
+}
