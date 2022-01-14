@@ -1,0 +1,30 @@
+#navbar {
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(78, 84, 200), rgb(143, 148, 251));
+    height: 50px;
+}
+
+.links {
+    text-decoration: none;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    height: 25px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.links:hover {
+    box-shadow: 10px black;
+    background-color: rgba(23, 145, 201, 0.623);
+    border-radius: 5px;
+}
+li{
+    list-style-type: none;
+    font-family: Leelawadee, monospace;
+    text-decoration: none;
+}
