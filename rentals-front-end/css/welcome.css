@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+    color: #feb062;
+}
+
+#description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    font-size: larger;
+    padding: 10px;
+    display: inline;
+    overflow: hidden;
+    width: 550px;
+    text-align: justify;
+    margin-right: 180px;
+}
+
+#quote {
+    font-size: larger;
+    font-family: Teelawadee, monospace;
+    text-align: left;
+    float: right;
+    width: 550px;
+    margin-top: -400px;
+    margin-right: 180px;
+}
+
+.buttons {
+    height: 40px;
+    width: 90px;
+    margin-left: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.buttons:hover {
+    background-color: rgba(98, 10, 170, 0.788);
+    cursor: pointer;
+    transition-duration: 0.4s;
+    width: 95px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+}
+
+.links {
+    text-decoration: none;
+    font-size: larger;
+}

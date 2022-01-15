@@ -9,7 +9,7 @@
 #welcome {
     border-radius: 50px 0px;
     border: 1px solid blue;
-    margin: 10px 5px;
+    margin: 10px 0px;
     padding-left: 10px;
     height: 400px;
     background-color: #0c15bf65;
@@ -19,7 +19,8 @@
     width: 400px;
     height: 200px;
     display: inline;
-
+    border: 10px solid white;
+    border-radius: 5px;
 }
 
 span {
@@ -36,20 +37,24 @@ span {
 }
 
 li {
+    padding-top: 5px;
     display: inline;
     list-style-type: none;
+    margin-bottom: 10px;
 }
 
 .links {
     text-decoration: none;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-left: 10px;
     margin-right: 10px;
     float: right;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 25px;
-    padding: 2px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    display: inline;
 }
 
 .links:hover {
@@ -69,8 +74,29 @@ li {
     margin-top: 15px;
 }
 
-#desc{
+#desc {
     font-size: medium;
     color: white;
     font-family: Microsoft Tai Le, monospace;
+}
+.paragraphs{
+    font-size: small;
+    font-family: Microsoft Tai Le, monospace;
+    padding-left: 40px;
+}
+#map{
+    display:inline;
+    padding-left: 500px;
+    float: right;
+    content: "";
+    clear: both;
+    display: table;
+}
+#second{
+padding-left: 250px;
+border-left: 5px solid linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+}
+#end-clause{
+    border-radius: 0px 0px 10px 10px;
+    background-color: #0C15BF;
 }
