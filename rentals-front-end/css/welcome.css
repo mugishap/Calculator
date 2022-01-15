@@ -31,6 +31,7 @@ body {
     margin-left: 10px;
     display: block;
     border-radius: 5px;
+    color: blue;
 }
 
 .buttons:hover {
