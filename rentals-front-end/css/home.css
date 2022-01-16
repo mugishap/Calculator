@@ -29,6 +29,6 @@ li{
     text-decoration: none;
 }
 #foot{
-    clip-path: ellipse(87% 100% at 52.59% 100%);
+    clip-path: ellipse(85% 100% at 50% 0%);
     background-color: rgba(95, 7, 117, 0.74);
 }
