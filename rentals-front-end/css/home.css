@@ -1,8 +1,15 @@
 #navbar {
     position: relative;
     overflow: hidden;
-    background-image: linear-gradient(to right, rgb(78, 84, 200), rgb(143, 148, 251));
+    background-color: #3d5af1;
     height: 50px;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0px 0px;
 }
 
 .links {
@@ -14,8 +21,11 @@
     margin-top: 0px;
     margin-left: 10px;
     margin-right: 10px;
-    text-align: center;
+
     margin-bottom: 10px;
+    color: white;
+    font-family: Leelawadee, monospace;
+    text-decoration: none;
 }
 
 .links:hover {
@@ -23,12 +33,103 @@
     background-color: rgba(23, 145, 201, 0.623);
     border-radius: 5px;
 }
-li{
+
+li {
     list-style-type: none;
     font-family: Leelawadee, monospace;
     text-decoration: none;
+    color: white;
 }
-#foot{
-    clip-path: ellipse(85% 100% at 50% 0%);
-    background-color: rgba(95, 7, 117, 0.74);
+
+.cards {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 10px 10px;
+    width: 400px;
+    height: 480px;
+    padding: 10px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.cards:hover {
+    border-radius: 10px;
+    padding: 10px;
+    width: 410px;
+    height: 485px;
+    transition-duration: 0.5s;
+    background-color: #3d5af1;
+    color: white;
+}
+
+.cards:hover img {
+    border-radius: 10%;
+}
+
+.houseImages {
+    border-radius: 5px;
+    border: 10px solid #3d5af1;
+    margin-left: 10px;
+}
+
+.houseButtons {
+    background-image: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0px 20px;
+    cursor: pointer;
+    margin: 2px 0px;
+
+}
+
+.houseButtons:hover {
+    background-color: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+    color: white;
+    font-weight: bolder;
+    height: 45px;
+    width: 210px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.houseLinks {
+    text-decoration: none;
+
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding-top: 0px;
+}
+
+.houseDescription {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#foot {
+    height: 300px;
+    width: 1920px;
+    clip-path: ellipse(67% 100% at 15.59% 100%);
+    background-color: #3d5af1;
+
+}
+
+#logo {
+    float: left;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.footHeadings {
+    display: inline;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    font-family: Leelawadee, monospace;
+    font-weight: lighter;
+    float: right;
+
 }

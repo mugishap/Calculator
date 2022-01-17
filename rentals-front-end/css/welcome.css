@@ -5,7 +5,7 @@ body {
 
 #description {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float: right;
+    float: left;
     font-size: larger;
     padding: 10px;
     display: inline;
@@ -19,7 +19,7 @@ body {
     font-size: larger;
     font-family: Teelawadee, monospace;
     text-align: left;
-    float: right;
+    float: left;
     width: 550px;
     margin-top: -400px;
     margin-right: 180px;
