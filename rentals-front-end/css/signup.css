@@ -1,5 +1,4 @@
 body {
-    background-color: #2d0b5552;
     background-image: url(../images/pap.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -14,14 +13,13 @@ body {
     padding: 20px  50px;
     font-size: x-large;
     font-family: Leelawadee, monospace;
-    height: 500px;
+    height: 750px;
     width: 350px;
-    margin-top: 30px;
-}
+    margin-top: 30px;}
 
 input {
     width: 300px;
-    height: 20px;
+    height: 30px;
     border-radius: 5px;
 }
 
@@ -33,13 +31,17 @@ input {
     margin-left: 40px;
     padding-bottom: 0px;
     margin-top: 10px;
+    border-radius: 5px;
 }
 #submit-btn:hover{
     cursor: pointer;
     background-color: rgba(71, 7, 155, 0.678);
-    height: 30px;
+    height: 40px;
     width: 155px;
     font-weight: bolder;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    color: white;
 }
 #logo{
     background-color: rgba(56, 7, 102, 0.397);
@@ -56,4 +58,10 @@ input {
 }
 label{
     margin-top: 40px;
+}
+input:focus{
+    background-color: plum;
+    width: 305px;
+    height: 35px;
+    border-radius: 5px;
 }

@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     background-color: #3d5af1;
-    height: 50px;
+    height: 60px;
     width: 100%;
 }
 
@@ -21,17 +21,28 @@ body {
     margin-top: 0px;
     margin-left: 10px;
     margin-right: 10px;
-
+    width: 110px;
     margin-bottom: 10px;
     color: white;
     font-family: Leelawadee, monospace;
     text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
 }
 
-.links:hover {
-    box-shadow: 10px black;
-    background-color: rgba(23, 145, 201, 0.623);
+.a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.a:hover {
+    color: #3d5af1;
+    background-color: white;
     border-radius: 5px;
+    transition-duration: 0.5s;
+    height: 30px;
+    width: 120px;
 }
 
 li {
@@ -67,6 +78,11 @@ li {
     border-radius: 10%;
 }
 
+.cards:hover .houseButtons {
+    display: block ;
+}
+
+
 .houseImages {
     border-radius: 5px;
     border: 10px solid #3d5af1;
@@ -74,13 +90,15 @@ li {
 }
 
 .houseButtons {
-    background-image: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+    background-color: white;
     width: 200px;
     height: 40px;
     border-radius: 5px;
     padding: 0px 20px;
     cursor: pointer;
     margin: 2px 0px;
+    display: none;
+    border: 2px solid white;
 
 }
 
@@ -92,6 +110,7 @@ li {
     width: 210px;
     border-radius: 5px;
     transition-duration: 0.5s;
+    border: 2px #3d5af1;
 }
 
 .houseLinks {
@@ -99,7 +118,7 @@ li {
 
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
+    color: #3d5af1;
     padding-top: 0px;
 }
 
@@ -117,10 +136,11 @@ li {
 
 }
 
-#logo {
+#introduction {
     float: left;
-    margin-top: 0px;
-    padding-top: 0px;
+    padding: auto;
+    margin: auto;
+    font-size: large;
 }
 
 .footHeadings {
