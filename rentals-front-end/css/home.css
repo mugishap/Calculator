@@ -54,21 +54,22 @@ li {
 
 .cards {
     border-radius: 10px;
-    background-color: #c9cff1;
+    background-color: #92a2fdaf;
     margin: 10px 10px;
     width: 400px;
     height: 490px;
     padding: 15px;
-    display:inline-table;
+    display: inline-table;
 }
+
 .cards:hover {
     border-radius: 10px;
     width: 410px;
-    height: 485px;
+    height: 490px;
     transition-duration: 0.5s;
     background-color: #3d5af1;
     color: white;
-    /* padding: 20px; */
+    padding: 20px;
 }
 
 .cards:hover img {
@@ -78,7 +79,7 @@ li {
 }
 
 .cards:hover .houseButtons {
-    display: block ;
+    display: block;
 }
 
 
@@ -135,20 +136,71 @@ li {
     font-size: large;
 }
 
-#caption{
+#caption {
     font-size: 40px;
     color: #3d5af1;
     font-weight: bold;
     text-align: center;
-    font-family:Microsoft Tai Le, monospace;
+    font-family: Microsoft Tai Le, monospace;
 }
-#searchBox{
+
+#searchBox {
     display: inline;
     height: 30px;
-    margin: 0;
+    margin-top: 0px;
 }
-#search{
-    height: 30px;
-    width: 70px;
+
+#search {
     display: inline;
+    float: right;
+}
+
+#searchButton {
+    /* border-radius: 5px; */
+    margin-top: 10px;
+    border-bottom: 3px solid #3d5af1;
+    border-left: 3px solid #3d5af1;
+    border-top: 3px solid #3d5af1;
+    padding-top: 5px;
+}
+
+
+.changePageLinks {
+    text-decoration: #3d5af1;
+}
+
+#navigatorToPage {
+    height: 40px;
+    width: 300px;
+    font-family: lelawadee, monospace;
+    float: left;
+    display: none;
+}
+
+#goToDiv {
+    font-family: lelawadee, monospace;
+    font-weight: bold;
+    font-size: larger;
+    color: #3d5af1;
+    margin-top: 10px;
+    background-color: white;
+    border: 3px solid #3d5af1;
+    width: 300px;
+    border-radius: 5px;
+    height: 30px;
+    position: relative;
+}
+
+#div:hover {
+    background-color: #3d5af1;
+    color: white;
+    font-weight: bold;
+    font-family: lelawadee, monospace;
+    cursor: pointer;
+    width: 300px;
+    height: 30px;
+}
+
+#div:hover #navigatorToPage {
+    display: block;
 }

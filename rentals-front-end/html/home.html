@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <script src="../js/home.js"></script>
+
 <body>
     <nav id="navigation">
         <div id="navbar">
@@ -23,8 +24,20 @@
             </ol>
         </div>
     </nav>
-    <div id="search"><button><a><i class="material-icons">search</i></a></button><input type="search" name="search" id="searchBox" placeholder="Search place.."></div>
+    <div id="search"><button id="searchButton"><a><i class="material-icons">search</i></a></button><input type="search"
+            name="search" id="searchBox" placeholder="Search place.."></div>
 
+    <nav>
+        <div id="goToDiv">Go to..</div>
+        <div  id="navigatorToPage">
+            <ol>
+                <li value="renting"><a class="changePageLinks" href="#">Rent a house</a></li>
+                <li value="booking"><a class="changePageLinks" href="#">Book a room</a></li>
+                <li value="buying"><a class="changePageLinks" href="home.html">Buy a house</a></li>
+                <li value="buying"><a class="changePageLinks" href="#">Sell a house</a></li>
+            </ol>
+        </div>
+    </nav>
     <p id="caption">House dealership</p>
     <div class="cards">
         <img class="houseImages" src="../images/house1.jpg" alt="house image" width="360px" height="240px">
