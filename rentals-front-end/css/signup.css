@@ -13,7 +13,7 @@ body {
     padding: 20px  50px;
     font-size: x-large;
     font-family: Leelawadee, monospace;
-    height: 750px;
+    height: 550px;
     width: 350px;
     margin-top: 30px;}
 
@@ -21,6 +21,9 @@ input {
     width: 300px;
     height: 30px;
     border-radius: 5px;
+}
+label{
+    padding: 10px 0px;
 }
 
 #submit-btn {
@@ -44,8 +47,9 @@ input {
     color: white;
 }
 #logo{
-    background-color: rgba(56, 7, 102, 0.397);
+    background-color: #3d5af1;
     border-radius: 10px 10px 0px 0px ;
+    color: white;
     /* margin-bottom: 10px; */
 }
 #img{
@@ -60,8 +64,9 @@ label{
     margin-top: 40px;
 }
 input:focus{
-    background-color: plum;
     width: 305px;
     height: 35px;
     border-radius: 5px;
+   outline: 2px solid #3d5af1;
+    transition-duration: 0.2s;
 }

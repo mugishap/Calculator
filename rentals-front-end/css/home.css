@@ -54,28 +54,27 @@ li {
 
 .cards {
     border-radius: 10px;
-    background-color: whitesmoke;
+    background-color: #c9cff1;
     margin: 10px 10px;
     width: 400px;
-    height: 480px;
-    padding: 10px;
-    content: "";
-    clear: both;
-    display: table;
+    height: 490px;
+    padding: 15px;
+    display:inline-table;
 }
-
 .cards:hover {
     border-radius: 10px;
-    padding: 10px;
     width: 410px;
     height: 485px;
     transition-duration: 0.5s;
     background-color: #3d5af1;
     color: white;
+    /* padding: 20px; */
 }
 
 .cards:hover img {
-    border-radius: 10%;
+    border-radius: 90px / 35px;
+    border: 5px solid white;
+    transition-duration: 0.5s;
 }
 
 .cards:hover .houseButtons {
@@ -128,13 +127,6 @@ li {
 
 }
 
-#foot {
-    height: 300px;
-    width: 1920px;
-    clip-path: ellipse(67% 100% at 15.59% 100%);
-    background-color: #3d5af1;
-
-}
 
 #introduction {
     float: left;
@@ -143,13 +135,20 @@ li {
     font-size: large;
 }
 
-.footHeadings {
+#caption{
+    font-size: 40px;
+    color: #3d5af1;
+    font-weight: bold;
+    text-align: center;
+    font-family:Microsoft Tai Le, monospace;
+}
+#searchBox{
     display: inline;
-    padding: 10px;
-    color: white;
-    font-size: larger;
-    font-family: Leelawadee, monospace;
-    font-weight: lighter;
-    float: right;
-
+    height: 30px;
+    margin: 0;
+}
+#search{
+    height: 30px;
+    width: 70px;
+    display: inline;
 }
