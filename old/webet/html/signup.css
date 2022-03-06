@@ -1,0 +1,10 @@
+body{
+    scroll-behavior: smooth;
+    display: flex;
+    /* overflow: hidden; */
+}
+.screens{
+    scroll-behavior: smoooth;
+    width: 1000px;
+    height: 100px;
+}
