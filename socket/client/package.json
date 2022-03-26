@@ -5,13 +5,16 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "nodemon": "nodemon script.js"
+    "nodemon": "nodemon script.js",
+    "start": "snowpack dev"
   },
   "author": "precieux33",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
     "nodemon": "^2.0.15",
-    "snowpack": "^3.8.8"
+    "snowpack": "^3.8.8",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
   }
 }
